@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;;
+}
+
+
+body {
+    font-family: "Libre Baskerville", serif;
+}
+
+header{
+    background-image: url("../imagens/fundo.png");
+    background-size: cover;
+    background-color: black;
+    height: 100vh;
+}
+
+.topo_header{
+    background-color: rgb(79, 79, 79);
+    opacity: 0.8;
+    text-align: right;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.topo_header p {
+    color: #ffb923;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.topo_header p i {
+    margin-right: 10px;
+}
+
+.topo {
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav {
+    /* background-color: rgb(243, 159, 159); */
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+ul li {
+    margin-left: 50px;
+}
+
+ul li a {
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", serif;
+}
+
+ul li a:hover {
+    color: #ffb923;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.conteudo_header {
+    display: flex;
+    margin-top: 100px;
+}
+
+.um {
+    width: 50%;
+}
+
+.dois {
+    width: 50%;
+}
+
+.um h1, .um p {
+    color: #fff;
+}
+
+.um h1 {
+    margin: 30px 0
+}
+
+.um p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-family: "Roboto", serif;
+}
+
+.um button {
+    background-color: #ffb923;
+    border: 1px solid #ffb923;
+    color: #fff;
+    font-size: 14px;
+    padding: 15px 40px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
